@@ -1,5 +1,5 @@
 import { Header } from "./Components/Header"
-import {Post} from "./Post"
+import {Post} from "./Components/Post"
 import './global.css'
 
 import styles from './App.module.css'
@@ -13,8 +13,8 @@ export function App() {
 
       <Sidebar />
       <main>
-        <Post author="rodrigo" content='afhjkfsjdkfks'/>
-        <Post author="joao" content='afhjkfsjdkfks'/>
+        <Post/>
+        <Post/>
       </main>
     </div>
     </>
